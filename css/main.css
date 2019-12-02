@@ -44,7 +44,7 @@ a {
   border-right: 1px solid #a63f38;
 }
 
-ol {
+ul {
   display: flex;
   padding: 0;
   margin: auto 0;
@@ -53,8 +53,9 @@ ol {
 }
 
 .branding {
-  display: flex;
   justify-content: space-between;
+  display: flex;
+  align-items: center;
 }
 
 img {
