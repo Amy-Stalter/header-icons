@@ -1,0 +1,46 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color:#d05c2e;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+
+li {
+  font-size: 1.125rem;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  justify-content: center;
+  text-align: center;
+  margin: auto 0;
+}
+
+.home:hover {
+  background-color: #a63f38;
+}
+
+.cereal:hover {
+  background-color: #a63f38;
+}
+
+.legumes:hover {
+  background-color: #a63f38;
+}
