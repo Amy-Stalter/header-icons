@@ -1,6 +1,7 @@
 html {
   box-sizing: border-box;
   line-height: 1.5;
+  font-family: Merriweather, serif;
 }
 
 *, *::before, *::after {
@@ -12,7 +13,7 @@ body {
 }
 
 header {
-  background-color:#d05c2e;
+  background-color: #d05c2e;
   margin: 0;
 }
 
@@ -25,22 +26,47 @@ h1 {
 
 li {
   font-size: 1.125rem;
-  display: inline-block;
-  text-decoration: none;
-  color: #fff;
   justify-content: center;
   text-align: center;
   margin: auto 0;
+  list-style-type: none;
 }
 
-.home:hover {
-  background-color: #a63f38;
+a {
+  margin: 0;
+  padding: .4rem 0;
+  padding-left: .5em;
+  padding-right: .5em;
 }
 
-.cereals:hover {
-  background-color: #a63f38;
+.cereals {
+  border-left: 1px solid #a63f38;
+  border-right: 1px solid #a63f38;
 }
 
-.legumes:hover {
+ol {
+  display: flex;
+  padding: 0;
+  margin: auto 0;
+  border: 1px solid #a63f38;
+  justify-content: center;
+}
+
+.branding {
+  display: flex;
+  justify-content: space-between;
+}
+
+img {
+  width: 40px;
+}
+
+nav a {
+  text-decoration: none;
+  display: inline-block;
+  color: #fff;
+}
+
+nav a:hover {
   background-color: #a63f38;
 }
